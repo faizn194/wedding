@@ -113,3 +113,13 @@ svg {
 .no-gap-bottom {
     margin-bottom: -0.75rem !important;
 }
+
+/* Hide the initial loading screen */
+#loading {
+    display: none !important;
+}
+
+/* Show the welcome screen immediately */
+#welcome {
+    opacity: 1 !important;
+}
